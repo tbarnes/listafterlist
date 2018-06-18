@@ -1,0 +1,1 @@
+CREATE TABLE `lal`.`list` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `user_id` INT(11) NOT NULL , `created_at` DATETIME NOT NULL , `category_id` INT(11) NOT NULL , `title` VARCHAR(2000) NOT NULL , `description` VARCHAR(20000) NOT NULL , `image` VARCHAR(2000) NOT NULL , `attribution` VARCHAR(2000) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
